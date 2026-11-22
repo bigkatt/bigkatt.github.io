@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wormzy Gaming — links</title>
+<meta name="description" content="Wormzy Gaming: maker of Wild Hunter: Idle Hunt. Play the test version on iPhone and Android, join the Discord.">
+<meta property="og:title" content="Wormzy Gaming — Wild Hunter: Idle Hunt">
+<meta property="og:description" content="Craft gear, raise animal companions and beat bosses. Join the test!">
+<meta property="og:image" content="https://bigkatt.github.io/wild-hunter-icon.jpg">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;color:#fff;font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    background:radial-gradient(ellipse at 50% -10%,#4f8a3a 0%,transparent 60%),linear-gradient(180deg,#24401f 0%,#14240f 100%)}
+  main{max-width:460px;margin:0 auto;padding:40px 18px 32px;text-align:center}
+  .icon{width:104px;height:104px;border-radius:24px;border:3px solid #f5c542;box-shadow:0 6px 18px rgba(0,0,0,.45)}
+  h1{font-size:26px;margin:14px 0 2px;letter-spacing:.3px}
+  .tag{margin:0 0 6px;color:#d8ecc8}
+  .game{display:inline-block;margin:6px 0 22px;padding:4px 12px;border-radius:999px;background:rgba(245,197,66,.16);color:#ffe08a;font-weight:700;font-size:14px}
+  .btn{display:flex;align-items:center;gap:12px;margin:0 0 12px;padding:14px 16px;border-radius:16px;text-decoration:none;color:#2b2114;
+    background:#fbf6ea;font-weight:700;box-shadow:0 4px 0 rgba(0,0,0,.35);transition:transform .1s}
+  .btn:active{transform:translateY(2px);box-shadow:0 2px 0 rgba(0,0,0,.35)}
+  .btn .em{font-size:26px;width:34px;text-align:center}
+  .btn span.t{flex:1;text-align:left}
+  .btn small{display:block;font-weight:400;color:#6b5a40;font-size:13px}
+  .btn.gold{background:linear-gradient(180deg,#ffd75e,#f0a92b)}
+  .btn.gold small{color:#5a3d06}
+  .btn.blue{background:#5865f2;color:#fff}.btn.blue small{color:#dfe2ff}
+  .steps{margin:-6px 0 14px;padding:10px 14px;border-radius:12px;background:rgba(0,0,0,.25);text-align:left;font-size:14px;color:#e8f3df}
+  .steps b{color:#ffe08a}
+  footer{margin-top:22px;font-size:13px;color:#a9c49a}
+  footer a{color:#d8ecc8}
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="wild-hunter-icon.jpg" alt="Wild Hunter icon">
+  <h1>Wormzy Gaming</h1>
+  <p class="tag">Solo indie dev making mobile games 🎮</p>
+  <div class="game">🏹 Wild Hunter: Idle Hunt</div>
+
+  <a class="btn gold" href="https://testflight.apple.com/join/CWCRPjz3">
+    <span class="em">🍎</span><span class="t">Play the iPhone / iPad test<small>Free via Apple's TestFlight app</small></span><span>›</span></a>
+
+  <a class="btn" href="https://groups.google.com/g/wild-hunter-testers">
+    <span class="em">🤖</span><span class="t">Android test — Step 1<small>Join the tester group</small></span><span>›</span></a>
+  <a class="btn" href="https://play.google.com/apps/testing/com.bigkatt.wildhunter">
+    <span class="em">✅</span><span class="t">Android test — Step 2<small>Tap “Become a tester”, then install</small></span><span>›</span></a>
+  <div class="steps">Android needs <b>both steps</b> with the same Google account that's on your phone.</div>
+
+  <!-- DISCORD: replace the link below with the server invite -->
+  <a class="btn blue" href="DISCORD_INVITE_LINK" id="discord">
+    <span class="em">💬</span><span class="t">Join the Discord<small>Updates, sneak peeks & bug reports</small></span><span>›</span></a>
+
+  <a class="btn" href="mailto:wormzygaming@gmail.com">
+    <span class="em">✉️</span><span class="t">Email me<small>wormzygaming@gmail.com</small></span><span>›</span></a>
+
+  <footer>
+    <a href="privacy-policy.html">Privacy policy</a> · <a href="delete-data.html">Delete your data</a> · <a href="index.html">Home</a>
+  </footer>
+</main>
+<script>
+  // hide the Discord button until the invite link is filled in
+  var d = document.getElementById('discord'); if (d && d.getAttribute('href').indexOf('DISCORD') === 0) d.style.display = 'none';
+</script>
+</body>
+</html>
