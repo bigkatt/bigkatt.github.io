@@ -1,0 +1,15 @@
+{
+  "_help": "Wild Hunter update check. 'latest' = newest build in the store (players below it see an 'Update ready' popup with Later). 'min' = oldest build still allowed (players below it must update). 0 = off. iOS build = the iOS build number, Android build = the Google Play version code.",
+  "ios": {
+    "latest": 0,
+    "min": 0,
+    "url": "https://testflight.apple.com/join/CWCRPjz3",
+    "whatsNew": ""
+  },
+  "android": {
+    "latest": 129,
+    "min": 0,
+    "url": "https://play.google.com/store/apps/details?id=com.bigkatt.wildhunter",
+    "whatsNew": "Free expedition permits, Workshop speed-ups with gems, Christmas Meadow and more."
+  }
+}
