@@ -11,5 +11,22 @@
     "min": 0,
     "url": "https://play.google.com/store/apps/details?id=com.bigkatt.wildhunter",
     "whatsNew": "Fixes: expeditions no longer get stuck, cleaner lettering, one-page Relics with digging, roomier Workshop."
-  }
+  },
+  "_mailHelp": "Wild Hunter Mailbox. Each letter: id (letters, numbers, - or _; never reuse one), from, title, body (\\n = new line), gifts {gems, gold, goldBags (1 bag = a quest's gold at the player's stage), pelts, egg, eggRare, eggEpic, eggLegendary, runes, scrolls, shards, picks}, start and end (YYYY-MM-DD = the player's local midnight; end = the moment it disappears), platform (all, ios or android), startedBefore / startedAfter (only players who started before/after that day), minStage (e.g. 3-1). Gifts can be claimed once per player. Players see changes the next time the game opens or comes back to the screen.",
+  "mail": [
+    {
+      "id": "launch-2026",
+      "from": "Wormzy Gaming",
+      "title": "Wild Hunter is here!",
+      "body": "Thank you for hunting with us on launch week!\nHere's a launch gift to help you on your way. Join our Discord to share your hunts, report bugs and hear about new updates first.",
+      "gifts": {
+        "gems": 100,
+        "eggRare": 1,
+        "goldBags": 3
+      },
+      "start": "2026-12-11",
+      "end": "2026-12-18",
+      "platform": "all"
+    }
+  ]
 }
